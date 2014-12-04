@@ -1,0 +1,30 @@
+{
+    "name": "fmingorance/laradoc",
+    "description": "Integração Doctrine 2 com Laravel 4",
+    "version": "0.5.0",
+    "keywords": ["doctrine", "doctrine 2", "orm", "laravel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fabio Mingorance",
+            "email": "contato@fabiomingorance.com.br"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "illuminate/support": "4.*|5.*",
+        "doctrine/orm": "2.5.*",
+        "doctrine/migrations": "1.*"
+    },
+	"require-dev": {
+		"mockery/mockery": "dev-master",
+		"phpunit/phpunit": "3.7.*"
+	},
+    "autoload": {
+        "psr-4": {
+            "Mingorance\\LaraDoc\\": "src/",
+	        "Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev"
+}
